@@ -124,7 +124,7 @@ export default (express, bodyParser, fs, crypto, http, mongodb, path, cors) => {
             });
         })
         .all('*', (req, res) => {
-            res.send('itmo287653');
+            res.send('itmo307699');
         });
 
 

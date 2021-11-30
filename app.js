@@ -71,7 +71,7 @@ export default (express, bodyParser, fs, crypto, http, mongodb, path, cors) => {
             res.status(200).end();
         
         })
-        .get('/login/', (req, res) => res.send('itmo287653'))
+        .get('/login/', (req, res) => res.send('itmo307699'))
         .get('/code/', (req, res) => fs.createReadStream(import.meta.url.substring(7)).pipe(res))
         .get('/sha1/:input/', (req, res) => {
             const { input } = req.params;

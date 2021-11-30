@@ -17,7 +17,7 @@ export default (express, bodyParser, fs, crypto, http, mongodb, path, cors) => {
     app.options('*', cors());
 
     app 
-        .get('/wordpress/wp-json/wp/v2/posts/1', (req, res) => res.status(200).json({title: {id: 1, rendered: "itmo287653"}}))
+        .get('/wordpress/wp-json/wp/v2/posts/1', (req, res) => res.status(200).json({title: {id: 1, rendered: "itmo307699"}}))
         .post('/render/', (req, res) => {
             const {random2, random3} = req.body;
 
@@ -37,7 +37,7 @@ export default (express, bodyParser, fs, crypto, http, mongodb, path, cors) => {
             //         try {
             //             const parsedData = JSON.parse(rawData);
             //             console.log(parsedData);
-            //             res.render('random', {random2: random2, random3: random3, login: "itmo287653"});
+            //             res.render('random', {random2: random2, random3: random3, login: "itmo307699"});
             //         } catch (e) {
             //             console.error(e.message);
             //         }
